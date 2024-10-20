@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    color: #006eff;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.intro {
+    color: #555;
+    font-style: italic;
+}
+
+#demo1, #demo2 {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 15px;
+}

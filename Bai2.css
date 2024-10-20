@@ -1,0 +1,44 @@
+/* Kiểu dáng cho nút chính */
+.dropbtn {
+    background-color: #2a9fd6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Định dạng chung cho menu dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Nội dung của menu con, ẩn mặc định */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px 0;
+}
+
+/* Định dạng cho các mục trong menu con */
+.dropdown-content a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hiệu ứng khi di chuột vào các mục */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Hiển thị menu con khi được mở */
+.show {
+    display: block;
+}
